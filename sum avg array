@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main()
+{
+    int a[20], sum = 0, avg = 0, n, i;
+    printf("Enter the size of n:\t");
+    scanf("%d", &n);
+    printf("Enter elements: \n");
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    for (i = 0; i < n; i++)
+    {
+        sum = sum + a[i];
+    }
+    avg = sum / n;
+    printf("The sum of the array is: %d \n", sum);
+    printf("The average of the array is: %d \n", avg);
+}
