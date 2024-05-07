@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "bubble sort": "c"
+        "bubble sort": "c",
+        "stdio.h": "c"
     }
 }
